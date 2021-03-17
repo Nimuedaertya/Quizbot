@@ -1,2 +1,2 @@
-I will help soon :)
+New to this :/
 
