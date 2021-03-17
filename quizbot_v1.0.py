@@ -22,7 +22,7 @@ def remove(path):
 
     #loading Token
 load_dotenv()
-TOKEN = "ODEyODA1NDU1MTMwNzg3OTAw.YDGGEQ.NEvy6r13jt8N7eSL9riECQxNIWU"
+TOKEN = os.getenv("TOKEN")
 
     #cast to bot
 bot =  commands.Bot(command_prefix="!")
